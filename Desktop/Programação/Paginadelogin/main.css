@@ -1,0 +1,152 @@
+body{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        src: url(//fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype')
+    
+
+}
+.allcode{
+    display: flex;
+}
+.welcome{
+    color: #ffffff;
+    text-align-last: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 80vh;
+    background-color: #58af9c
+}
+.text-welcome{
+    margin: 0;
+    color: #ffffff;
+    font-size: 40px;
+}
+.text-login{
+    
+    color: #9febdb;
+    font-size: 15px;
+    margin-top: 0%;
+
+}
+.registration{
+    color: #cbcbcb;
+}
+.createaccount{
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 120vh;
+}
+.text-createaccount{
+    margin: 10px;
+    font-size: 35px;
+    color:  #58af9c;
+}
+.images{
+    margin: 3px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+.facebook{
+    margin-right: 15px;
+    display: flex;
+    border: 1px solid #cbcbcb;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    
+}
+
+.gmail{ 
+    margin-right: 15px;
+    display: flex;
+    border: 1px solid #cbcbcb;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 50%;
+
+}
+.linkedin{
+    margin-right: 15px;
+    display: flex;
+    border: 1px solid #cbcbcb;
+    padding: 8px;
+    box-sizing: border-box;
+    border-radius: 50%;
+   
+}
+.data{
+    margin-inline: 25%;
+    padding: 5px;   
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    display: flex;
+    padding: 10px;
+     margin-bottom: 10px;
+    background-color: #ecf0f1;
+}
+.name input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.email{
+    display: flex;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color:#ecf0f1;
+}
+.email input{
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.password{
+    display: flex;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color:#ecf0f1;
+}
+.password input{   
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+
+.button-signin {
+    margin: 3% auto;
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+    font-weight: bold; 
+    background-color: #58af9c;
+    text-transform: uppercase;
+    width: 180px;
+    height: 40px;
+    color: #ffffff;
+}
+.button-signup{
+    margin: 1% auto 0;
+    border: solid;
+    background-color:  #58af9c;
+    border-color:  #58af9c;
+    text-transform: uppercase;
+    width: 180px;
+    height: 40px;
+    color: #ffffff;
+    border-radius: 21px;
+}
+.register-icon{
+       margin-right: 5px;
+}
